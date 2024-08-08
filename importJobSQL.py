@@ -87,7 +87,7 @@ def main():
             "GST_Exempted" text NULL,
             "Invoice_link" text NULL,
             "Provision_Status" text NULL,
-            CONSTRAINT mmt_flight_recon_test_pkey PRIMARY KEY ("id")
+            CONSTRAINT mmt_flight_recon_pkey PRIMARY KEY ("id")
         );
         """
         cur.execute(create_table_query)
